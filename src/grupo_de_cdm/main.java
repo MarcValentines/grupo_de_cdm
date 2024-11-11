@@ -17,5 +17,15 @@ public class main {
 		
 		
 		// User 3 fer la multiplicació dels elements de prodArray
+		
+		int resultMul = 1;
+		
+		for(int i = 0; i < prodArray.length; i++) {
+			
+			resultMul = resultMul * prodArray[i];
+		}
+		
+		System.out.println("Este es el resultado de la multiplicacion " + resultMul);
+		
 	}
 }
