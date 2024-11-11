@@ -12,10 +12,22 @@ public class main {
 		
 		
 		
-		// User 2 fer la resta dels elements de subArray
+		// User 2 fer la resta dels elements de subArray 
 		
+		int resultadoResta = 0;
+		
+		for(int i = 0; i < subArray.length; i++) {
+		
+		resultadoResta =  subArray[i] - resultadoResta;
+		}
+		
+		System.out.println("Resultado Resta" + resultadoResta);
 		
 		
 		// User 3 fer la multiplicació dels elements de prodArray
+		
+		
+		
+		
 	}
 }
