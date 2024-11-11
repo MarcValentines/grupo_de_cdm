@@ -10,7 +10,12 @@ public class main {
 		
 		// User 1 fer la suma dels elements de sumArray
 		
-		
+		int recSuma = 0;
+		for (int i = 0; i < sumArray.length; i++) {
+			recSuma = recSuma + sumArray[i];
+		}
+		System.out.println("El resultat de la suma es = ");
+		System.out.println(recSuma);
 		
 		// User 2 fer la resta dels elements de subArray
 		
