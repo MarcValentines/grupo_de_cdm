@@ -17,20 +17,22 @@ public class main {
 		System.out.println("El resultat de la suma es = ");
 		System.out.println(recSuma);
 		
-		// User 2 fer la resta dels elements de subArray
+		// User 2 fer la resta dels elements de subArray 
 		
+		int resultadoResta = 0;
+		
+		for(int i = 0; i < subArray.length; i++) {
+		
+		resultadoResta =  subArray[i] - resultadoResta;
+		}
+		
+		System.out.println("Resultado Resta" + resultadoResta);
 		
 		
 		// User 3 fer la multiplicació dels elements de prodArray
 		
-		int resultMul = 1;
 		
-		for(int i = 0; i < prodArray.length; i++) {
-			
-			resultMul = resultMul * prodArray[i];
-		}
 		
-		System.out.println("Este es el resultado de la multiplicacion " + resultMul);
 		
 	}
 }
