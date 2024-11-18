@@ -20,18 +20,17 @@ public class main {
 		// User 2 fer la resta dels elements de subArray
 		
 		
+		int resultadoResta = 0;
 		
-		// User 3 fer la multiplicació dels elements de prodArray
+		for(int i = 0; i < subArray.length; i++) {
 		
-		int resultMul = 1;
-		
-		for(int i = 0; i < prodArray.length; i++) {
-			
-			resultMul = resultMul * prodArray[i];
+		resultadoResta =  subArray[i] - resultadoResta;
 		}
 		
-		System.out.println("Este es el resultado de la multiplicacion " + resultMul);
+		System.out.println("Restultado resta" + resultadoResta);
 		
+		
+		// User 3 fer la multiplicació dels elements de prodArray
 		
 		int resultMul = 1;
 		
