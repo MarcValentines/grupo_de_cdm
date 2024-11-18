@@ -32,7 +32,7 @@ public class main {
 		// User 3 fer la multiplicació dels elements de prodArray
 		
 		
-		//
+		
 		
 		
 		int resultMul = 1;
